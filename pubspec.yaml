@@ -1,0 +1,65 @@
+name: cyber_portfolio
+description: "Professional Cybersecurity & Network Engineering Portfolio - Sriraj Renue Branoz"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Routing
+  go_router: ^14.2.0
+
+  # Animations
+  flutter_animate: ^4.5.0
+  animated_text_kit: ^4.2.2
+  lottie: ^3.1.2
+  rive: ^0.13.13
+
+  # UI / Visual
+  glassmorphism: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  font_awesome_flutter: ^10.7.0
+  responsive_framework: ^1.4.0
+  google_fonts: ^6.2.1
+
+  # Charts (for skills radar / progress)
+  fl_chart: ^0.68.0
+
+  # Forms / Validation / Email
+  email_validator: ^3.0.0
+  url_launcher: ^6.3.0
+
+  # Utilities
+  visibility_detector: ^0.4.0+2
+  scroll_to_index: ^3.0.1
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+    - assets/cv/
+
+  # TODO: Add custom fonts here if not using google_fonts exclusively
+  # fonts:
+  #   - family: Orbitron
+  #     fonts:
+  #       - asset: assets/fonts/Orbitron-Regular.ttf
+  #       - asset: assets/fonts/Orbitron-Bold.ttf
+  #         weight: 700
