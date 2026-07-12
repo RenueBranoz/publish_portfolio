@@ -11,15 +11,26 @@ import 'package:cyber_portfolio/core/theme/app_colors.dart';
 class PortfolioData {
   PortfolioData._();
 
+  // ---------------- Secure Contact Nodes (Added) ----------------
+  static const String email = 'renuebranoz@gmail.com';
+  static const String linkedin =
+      'https://www.linkedin.com/in/renue-branoz-sriraj-670498159/';
+  static const String github = 'https://github.com/RenueBranoz';
+  static const String phone = '+94 70 205 4555';
+  static const String tryHackMe = 'https://tryhackme.com/p/renuebranoz';
+  static const String hackTheBox =
+      'https://profile.hackthebox.com/profile/019dfdc9-8bf1-7288-9221-d9a251829b0b';
+
   // ---------------- Personal Info (Hero) ----------------
   static const String fullName = 'Sriraj Renue Branoz';
   static const String title =
-      'Network Engineer | Cybersecurity Enthusiast | Digital Forensics Researcher';
-  static const String tagline =
-      'Building secure networks, protecting digital assets, and engineering resilient digital infrastructures through networking, cybersecurity, digital forensics, and cloud technologies.';
-  static const String professionalSummary =
-      'Passionate ICT undergraduate specializing in network engineering, cybersecurity, digital forensics, and cloud infrastructure. Experienced in designing enterprise network solutions, security assessments, Linux server administration, and modern network technologies. Dedicated to continuous learning, leadership development, and leveraging technology to create secure and efficient digital environments.';
+      'ICT Undergraduate | Cybersecurity Researcher | SOC & Detection Engineering | Digital Forensics';
 
+  static const String tagline =
+      'Building enterprise security environments, validating attack simulations, and engineering detections to strengthen modern cyber defense.';
+
+  static const String professionalSummary =
+      'Cybersecurity-focused ICT undergraduate specializing in Security Operations (SOC), detection engineering, digital forensics, enterprise networking, and cloud infrastructure. Experienced in designing enterprise virtual SOC environments using Splunk SIEM, OPNsense Firewall, Windows Server Active Directory, Linux servers, and virtualization technologies. Passionate about attack simulation, security monitoring, threat detection, incident investigation, and developing practical defensive solutions through continuous research and hands-on cybersecurity projects.';
   static const String profileImagePath =
       'assets/images/profile_placeholder.png';
   static const String cvAssetPath = 'assets/cv/cv_placeholder.pdf';
@@ -45,14 +56,15 @@ class PortfolioData {
   ];
 
   static const String aboutBio = '''
-I am Sriraj Renue Branoz, an ICT undergraduate with a strong passion for networking, cybersecurity, digital forensics, cloud computing, and emerging technologies. My academic and practical experiences have enabled me to develop skills in network design, security implementation, Linux server administration, and digital investigations.
+I am Sriraj Renue Branoz, an Information and Communication Technology (ICT) undergraduate with a strong passion for network, cybersecurity, digital forensics, cloud computing, and emerging technologies. I am dedicated to building secure, reliable, and efficient digital infrastructures while continuously expanding my technical expertise through hands-on projects and research.
 
-Throughout my undergraduate journey, I have actively engaged in network engineering projects involving routing, switching, VLAN implementation, OSPF configuration, and network troubleshooting. I have also explored cybersecurity domains including penetration testing, vulnerability assessment, security hardening, and secure infrastructure deployment.
+Throughout my academic journey, I have gained practical experience in network design, routing and switching, VLAN implementation, OSPF configuration, network troubleshooting, and infrastructure security. My interest in cybersecurity has led me to explore areas such as penetration testing, vulnerability assessment, security hardening, and secure network architecture, allowing me to develop a solid foundation in protecting digital systems and data.
 
-My technical interests extend into digital forensics, where I study evidence acquisition, network forensics, and forensic investigation methodologies. Additionally, I maintain hands-on experience with Linux environments, VPS administration, Xray-core deployments, cloud infrastructure, and secure remote access solutions.
+I am also passionate about digital forensics, where I focus on evidence acquisition, network forensics, and investigative methodologies used to analyze and respond to security incidents. In addition, I have hands-on experience with Linux server administration, VPS management, cloud-based infrastructure, Xray-core deployments, and secure remote access technologies.
 
-Beyond technology, I am deeply involved in leadership and community service activities. Through youth leadership programs, social welfare initiatives, blood donation campaigns, and educational support projects, I have developed strong communication, coordination, and problem-solving abilities.
-''';
+Beyond my technical pursuits, I actively contribute to leadership and community development initiatives. Through youth leadership programs, social welfare projects and educational support activities, I have strengthened my skills in communication, teamwork, coordination, and problem-solving. These experiences have reinforced my belief that technology and leadership can work together to create meaningful and lasting positive impact.
+
+My goal is to establish myself as a skilled network and security professional, contributing to the development of secure digital ecosystems while using technology to solve real-world challenges and support communities.''';
 
   // ---------------- Skills Matrix ----------------
   static const List<SkillCategory> skillCategories = [
@@ -127,115 +139,101 @@ Beyond technology, I am deeply involved in leadership and community service acti
   // ---------------- Certifications ----------------
   static const List<Certification> certifications = [
     Certification(
-      title: 'Cisco Networking Academy Training',
-      issuer: 'Cisco Networking Academy',
-      date: 'In Progress',
-      imagePath: 'assets/images/cert_placeholder.png',
-    ),
+        title: 'Introduction to Cybersecurity',
+        issuer: 'Cisco Networking Academy',
+        date: '2026',
+        imagePath: 'assets/images/cyber.png',
+        pdfPath: 'assets/pdfs/cyb.pdf'),
     Certification(
-      title: 'Cybersecurity Fundamentals',
-      issuer: 'Self-Learning / Online Training',
-      date: 'Ongoing',
-      imagePath: 'assets/images/cert_placeholder.png',
-    ),
+        title: 'CCNAv7: Introduction to Networks',
+        issuer: 'Cisco Networking Academy',
+        date: '2024',
+        imagePath: 'assets/images/introtonet.png',
+        pdfPath:
+            'assets/pdfs/CCNA-_Introduction_to_Networks_certificate_renuebranoz-gmail-com_81ecb9e1-6f46-47a0-af94-681716d5581a.pdf'),
     Certification(
-      title: 'Linux Administration Training',
-      issuer: 'Self-Learning / Online Training',
-      date: 'Ongoing',
-      imagePath: 'assets/images/cert_placeholder.png',
-    ),
+        title: 'CCNAv7: Switching, Routing, and Wireless Essentials',
+        issuer: 'Cisco Networking Academy',
+        date: '2025',
+        imagePath: 'assets/images/switching.png',
+        pdfPath:
+            'assets/pdfs/CCNA-_Switching-_Routing-_and_Wireless_Essentials_certificate_renuebranoz-gmail-com_8136aff0-1b62-46ed-9d1b-030611b093cf.pdf'),
     Certification(
-      title: 'Ethical Hacking & Security Learning',
-      issuer: 'Self-Learning / Online Training',
-      date: 'Ongoing',
-      imagePath: 'assets/images/cert_placeholder.png',
-    ),
+        title: 'Ethical Hacker',
+        issuer: 'Cisco Networking Academy',
+        date: '2026',
+        imagePath: 'assets/images/ethical.png',
+        pdfPath:
+            'assets/pdfs/Ethical_Hacker_certificate_renuebranoz-gmail-com_2de38956-4166-4140-a241-01a99732b88d.pdf'),
     Certification(
-      title: 'Digital Forensics Learning Path',
-      issuer: 'Self-Learning / Online Training',
-      date: 'Ongoing',
-      imagePath: 'assets/images/cert_placeholder.png',
-    ),
+        title: 'Intro to Splunk (eLearning)',
+        issuer: 'Splunk',
+        date: '2026',
+        imagePath: 'assets/images/splunk1.png',
+        pdfPath: 'assets/pdfs/splunk1.pdf'),
+    Certification(
+        title: 'Using Fields (eLearning)',
+        issuer: 'Splunk',
+        date: '2026',
+        imagePath: 'assets/images/splunk2.png',
+        pdfPath: 'assets/pdfs/splunk2.pdf'),
+    Certification(
+        title: 'Digital Forensics & Incident Investigation',
+        issuer: 'Red Team Leaders',
+        date: '2026',
+        imagePath: 'assets/images/forensics.png',
+        pdfPath: 'assets/pdfs/digital_forensi_certificate.pdf'),
+    Certification(
+        title: 'Certified LLM Security Professional (CLLMSP)',
+        issuer: 'Red Team Leaders',
+        date: '2026',
+        imagePath: 'assets/images/llm.png',
+        pdfPath: 'assets/pdfs/certified_llm_certificate.pdf'),
+    Certification(
+        title: 'Mastering Pentest & Red Team Report Writing',
+        issuer: 'Red Team Leaders',
+        date: '2026',
+        imagePath: 'assets/images/pentest.png',
+        pdfPath: 'assets/pdfs/mastering_certificate.pdf'),
   ];
 
   // ---------------- Featured Projects ----------------
   static const List<Project> projects = [
     Project(
-      title: 'Enterprise Network Infrastructure Design',
+      title: '🛡️Enterprise Virtual SOC & Detection Engineering Lab',
       description:
-          'Designed and configured enterprise-level network infrastructures using Cisco technologies. Implemented routing protocols, VLAN segmentation, IP addressing schemes, and network optimization strategies while ensuring reliability and scalability.',
+          'Designed and deployed an enterprise-style Virtual Security Operations Center (SOC) environment featuring Active Directory, Windows endpoints, Ubuntu servers, OPNsense Firewall, and Splunk SIEM. Simulated cyber attacks including Nmap reconnaissance and SQL injection to generate security telemetry, engineer SPL detections, and validate SOC monitoring capabilities through a Purple Team methodology.',
       technologies: [
-        'Cisco Packet Tracer',
-        'OSPF',
+        'Splunk SIEM',
+        'OPNsense',
+        'Active Directory',
+        'Detection Engineering',
+        'SPL',
+        'SOC',
+        'Threat Detection'
+      ],
+      imagePath: 'assets/images/soc.png',
+      githubUrl:
+          'https://medium.com/@renuebranoz/building-a-home-soc-lab-a-purple-team-approach-to-detection-engineering-bc68644fdab2',
+    ),
+    Project(
+      title: 'Enterprise Campus Network Design',
+      description:
+          'Designed and implemented a secure enterprise campus network using Cisco Packet Tracer with VLAN segmentation, Inter-VLAN routing, centralized DHCP/DNS services, SSH-based device management, ACL security policies, and wireless connectivity to simulate a scalable, real-world corporate infrastructure.',
+      technologies: [
+        'Cisco Packet Tracer'
+            'Cisco IOS',
         'VLAN',
-        'Routing',
-        'Switching',
-        'TCP/IP',
-        'Network Security'
-      ],
-      imagePath: 'assets/images/project_placeholder.png',
-      githubUrl: null,
-    ),
-    Project(
-      title: 'Secure VPS Infrastructure Deployment',
-      description:
-          'Configured and managed cloud-hosted VPS infrastructures with Xray-core, secure tunneling technologies, DNS optimization, routing policies, WARP integration, and Linux server hardening to provide secure and high-performance connectivity.',
-      technologies: [
-        'Linux',
-        'VPS',
-        'Xray-Core',
-        'WireGuard',
-        'Cloudflare WARP',
+        'Inter-VLAN Routing',
+        'Layer 3 Switching',
+        'DHCP',
         'DNS',
-        'Security Hardening'
+        'ACL',
+        'SSH',
+        'Wireless LAN'
       ],
       imagePath: 'assets/images/project_placeholder.png',
-      githubUrl: null,
-    ),
-    Project(
-      title: 'VLESS + Reality Network Security Deployment',
-      description:
-          'Implemented advanced Xray-core configurations using VLESS and Reality protocols to enhance security, privacy, performance, and traffic obfuscation while maintaining efficient routing and accessibility.',
-      technologies: [
-        'Xray-Core',
-        'VLESS',
-        'Reality',
-        'TLS',
-        'Linux',
-        'VPS Security'
-      ],
-      imagePath: 'assets/images/project_placeholder.png',
-      githubUrl: null,
-    ),
-    Project(
-      title: 'Digital Forensics Investigation Laboratory',
-      description:
-          'Conducted digital forensic investigations focusing on evidence collection, traffic analysis, system examination, and forensic reporting using industry-standard methodologies and tools.',
-      technologies: [
-        'Digital Forensics',
-        'Wireshark',
-        'Linux',
-        'Network Analysis',
-        'Investigation'
-      ],
-      imagePath: 'assets/images/project_placeholder.png',
-      githubUrl: null,
-    ),
-    Project(
-      title: 'Learning Management System',
-      description:
-          'Designed and developed a learning management platform to support educational activities, content delivery, and user management while applying software engineering principles.',
-      technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-      imagePath: 'assets/images/project_placeholder.png',
-      githubUrl: null,
-    ),
-    Project(
-      title: 'Bookstore Management System',
-      description:
-          'Developed a web-based bookstore application with inventory management, customer interactions, database integration, and responsive user interfaces.',
-      technologies: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript'],
-      imagePath: 'assets/images/project_placeholder.png',
-      githubUrl: null,
+      githubUrl: 'https://github.com/RenueBranoz/Enterprise-Campus-Network',
     ),
   ];
 
@@ -250,28 +248,20 @@ Beyond technology, I am deeply involved in leadership and community service acti
       icon: FontAwesomeIcons.graduationCap,
     ),
     TimelineEntry(
-      title: 'Network Engineering Studies',
-      subtitle: 'Core Focus',
-      period: '2024 — Present',
+      title: 'Advanced Level Education',
+      subtitle: 'Highlands Central College, Hatton',
+      period: '2018 — 2020',
       description:
-          'Completed practical networking laboratories involving routers, switches, VLANs, OSPF, and network troubleshooting.',
-      icon: FontAwesomeIcons.networkWired,
+          'Completed secondary education with a focus on G.C.E. Advanced Level examinations.',
+      icon: FontAwesomeIcons.buildingColumns,
     ),
     TimelineEntry(
-      title: 'Cybersecurity Studies',
-      subtitle: 'Core Focus',
-      period: '2024 — Present',
+      title: 'Primary & Secondary Education',
+      subtitle: "St. John Bosco's College, Hatton",
+      period: '2007 — 2017',
       description:
-          'Focused on ethical hacking, penetration testing, vulnerability assessment, and security best practices.',
-      icon: FontAwesomeIcons.shieldHalved,
-    ),
-    TimelineEntry(
-      title: 'Linux Server Administration',
-      subtitle: 'Technical Experience',
-      period: '2025 — Present',
-      description:
-          'Managing VPS infrastructures, security configurations, networking services, and performance optimization.',
-      icon: FontAwesomeIcons.linux,
+          'Completed foundational primary education and G.C.E. Ordinary Level examinations.',
+      icon: FontAwesomeIcons.school,
     ),
   ];
 
@@ -345,6 +335,5 @@ Beyond technology, I am deeply involved in leadership and community service acti
     },
   ];
 
-  // Fallback placeholder list for UI rendering requirements
   static const List<Testimonial> testimonials = [];
 }

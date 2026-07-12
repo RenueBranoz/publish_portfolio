@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
 
   # State Management
   flutter_riverpod: ^2.5.1
@@ -41,6 +42,7 @@ dependencies:
   scroll_to_index: ^3.0.1
 
   cupertino_icons: ^1.0.6
+  syncfusion_flutter_pdfviewer: ^33.2.13
 
 dev_dependencies:
   flutter_test:
@@ -55,6 +57,7 @@ flutter:
     - assets/icons/
     - assets/lottie/
     - assets/cv/
+    - assets/pdfs/
 
   # TODO: Add custom fonts here if not using google_fonts exclusively
   # fonts:
